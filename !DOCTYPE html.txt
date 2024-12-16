@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário da AnxySweet</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffeef2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #f8b6c2;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        main {
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f8b6c2;
+        }
+        .post h2 {
+            color: #f26474;
+        }
+        footer {
+            margin: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #f26474;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diário da AnxySweet</h1>
+    </header>
+    <main>
+        <div class="post">
+            <h2>Meu Primeiro Pensamento</h2>
+            <p>Hoje foi um dia incrível! Passei a tarde curtindo a estética de Strawberry Shortcake e me inspirei para escrever no meu diário...</p>
+        </div>
+        <!-- Adicione mais posts aqui -->
+    </main>
+    <footer>
+        <p>Siga-me no Pinterest: <a href="https://www.pinterest.com/anxysweet" target="_blank">@anxysweet</a></p>
+    </footer>
+</body>
+</html>
